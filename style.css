@@ -1,0 +1,173 @@
+.c
+{   
+    background-color:orange;
+}
+.x
+{
+    background-image: url("http://shutter.io/img/8vg1bq/raw");
+}
+body 
+{
+    background-size: cover;
+}
+@media screen and (max-width: 600px) 
+{
+table, tr, td
+{ 
+   padding: 50px;
+}
+table
+{
+    padding:20px;
+}
+td
+{
+    padding:0px;
+}
+}
+
+tr
+ { 
+    font-size:30px; 
+ }
+ table
+ {
+    margin:0 auto;
+padding: 40px;
+ }
+ td
+ {
+    padding:20px;
+ }
+a 
+{
+color: white;
+} 
+ 
+.options
+ {
+    color: white; text-align: right; background-color:#FFD700; font-family: Arial; font-size:20px; margin:0px; 
+ }
+ a:link
+ {
+ 	text-decoration: none;
+ }
+h1
+{
+margin:0; padding:0; text-align:center; color: white; font-size:130px; font-family: Verdana;
+} 
+ 
+@media screen and (max-width: 600px) 
+{
+.s
+{ 
+    display: block; 
+    background-color:orange;
+    height:1200px; 
+    font-family: Verdana;
+    color:white;
+    font-size:22px; 
+}
+}
+ .s
+ {
+    display: block; 
+    background-color:orange;
+    font-family: Verdana;
+    color:white;
+    font-size:30px;
+    text-align:center; 
+ }
+
+@media screen and (max-width: 600px) 
+{
+ .o
+ {
+    background-color:orange;
+    height:1200px;
+    padding:40px 50px 40px 50px;
+    font-family: Verdana;
+    color:white;
+    font-size:20px;
+    text-align:center;
+ }
+}
+.z
+{
+    background-color: white; 
+}
+ .o
+ {
+ 	background-color:orange; 
+ 	padding:60px 80px 60px 80px;
+ 	font-family: Verdana;
+ 	color:white;
+ 	font-size:24px;
+ 	text-align:center;
+    height:500px;
+ }
+
+#forms
+{
+        font-family: Arial;
+        color: white; 
+        text-align: center;  
+}
+
+#footer
+{
+background-color: orange; 
+color: white;  
+text-align: center;
+}
+
+img
+{
+	height: 300px;
+    width: 300px; 
+}
+.displayed 
+{ 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+     } 
+
+
+@media screen and (max-width: 600px) 
+{
+iframe
+{  
+    margin-right: auto;
+    margin-left: auto; 
+     width:100px; 
+}
+}
+     iframe
+      { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width:600px; 
+}
+.contact 
+{ 
+    padding:200px;
+    text-align: center;
+    background-color:orange; 
+    height:200px;
+font-size:30px; 
+text-decoration: none;
+color:white;
+}
+
+.media
+{ 
+    padding:150px;
+    text-align: center;
+    background-color: orange; 
+    height:300px;
+font-size:30px; 
+color:white; 
+} 
+
