@@ -1,0 +1,260 @@
+.abby-img{
+  margin-bottom: 30px;
+}
+
+a:active {
+  color: #DA70D6;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:link {
+  color: #DA70D6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #DA70D6;
+}
+
+.app {
+  margin: -10px auto -20px auto;
+  padding: 20px;
+  text-align: center;
+  @media only screen and (max-width: 770px) {
+    margin-top: -70px;
+  }
+}
+
+.app p {
+  font-size: 1.4em;
+  margin: -35px 0 50px !important;
+}
+
+.app h1 {
+  text-align: center;
+}
+
+.app h3 {
+  font-size: 35px;
+}
+
+.app h3:hover {
+  color: orange;
+}
+
+.app h4 {
+  font-size: 1.7em;
+  padding-bottom: 20px;
+  @media only screen and (max-width: 740px) {
+    font-size: 1.5em;
+  }
+}
+
+.app h4:hover {
+  color: orange;
+}
+
+.app img {
+  width: 76%;
+  margin-bottom: 35px;
+}
+
+body {
+  background-color: #CE2653;
+  /*background-color: #59D6B2 ;*/
+  color: white;
+  /*background-color: #E5FFE0;*/
+  /*color: #FF8795;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  height: 100%;
+  overflow-x: hidden;
+  line-height: 1.5;
+  margin: 0;
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+  /*padding:40px;*/
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.center img{
+  width: 200px;
+}
+
+.art{
+  text-align: center;
+  padding:40px;
+  font-size: 2em;
+  font-weight: 700;
+  @media only screen and (max-width: 600px) {
+    font-size: 1.5em;
+  }
+}
+
+.contact {
+  font-size: 2.5em;
+  padding: 3em 0 1em 0;
+  text-align: center;
+  @media only screen and (max-width: 600px) {
+    font-size: 1.6em;
+  }
+}
+
+.contact a:hover {
+  color: orange;
+}
+
+.container {
+  width: 800px;
+  font-size: 24px;
+  @media only screen and (max-width: 800px) {
+    width: 90%;
+    margin: 60px 5%;
+  }
+}
+
+.container a:hover {
+  color: orange;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 30px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+#footer {
+  margin: 20px;
+  text-align: center;
+}
+
+#forms {
+  color: white;
+  text-align: center;
+}
+
+.video {
+  font-size: 30px;
+  padding: 50px;
+  text-align: center;
+  margin-top: -100px;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.row{
+  margin-top: 20px;
+}
+
+.navbar li {
+  float: right;
+  font-size: 15px;
+  margin-right: 30px;
+  padding-top: 20px;
+  @media only screen and (max-width: 740px) {
+    margin-right: 10px;
+  }
+}
+
+.media a:hover {
+  color: orange;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar a {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style-type: none;
+  list-style-position: inside;
+  @media only screen and (max-width: 740px) {
+    font-size: 0.8em;
+  }
+}
+
+.bio-space{
+  margin-top: 50px;
+  @media only screen and (max-width: 740px) {
+    margin-top: -20px;
+  }
+}
+
+.bio {
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 30px;
+}
+
+.abz{
+  margin-top:60px;
+}
+
+.portfolio{
+  font-size: 50px;
+  padding: 30px;
+  text-align: center;
+}
+
+.space{
+  margin:80px;
+}
+
+.skills {
+  font-size: 0.8em;
+  margin: 0 auto;
+  width: 92%;
+  @media only screen and (max-width: 600px) {
+    font-size: 0.5em;
+  }
+}
+
+.skills header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  @media only screen and (max-width: 600px) {
+    font-size: 0.8em;
+  }
+}
+
+.text {
+  font-size: 30px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.hello {
+  font-size: 8em;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  @media only screen and (max-width: 800px) {
+    font-size: 3em;
+    margin-top: 20px;
+  }
+}
+
+.dev {
+  font-size: 80px;
+  margin: 0;
+  padding-bottom: 40px;
+  text-align: center;
+}
