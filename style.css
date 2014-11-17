@@ -46,7 +46,7 @@ color: white;
 
 .options
  {
-    color: white; text-align: right; background-color:#212162; font-family: Arial; font-size:20px; margin:0px;
+    color: white; text-align: right; background-color:#212162; font-family: Arial; font-size:18px; margin:0px;
  }
  a:link
  {
@@ -54,7 +54,7 @@ color: white;
  }
 h1
 {
-margin:0; padding:0; text-align:center; color: white; font-size:120px; font-family: Verdana;
+margin:0; padding:0; text-align:center; color: white; font-size:110px; font-family: Verdana;
 }
 
  .s
