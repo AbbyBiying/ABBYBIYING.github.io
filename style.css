@@ -1,19 +1,19 @@
 .c
-{   
+{
     background-color:orange;
 }
 .x
 {
-    background-image: url("http://shutter.io/img/8vg1bq/raw");
+    background-color:#212162;
 }
-body 
+body
 {
     background-size: cover;
 }
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 600px)
 {
 table, tr, td
-{ 
+{
    padding: 50px;
 }
 table
@@ -27,8 +27,8 @@ td
 }
 
 tr
- { 
-    font-size:30px; 
+ {
+    font-size:30px;
  }
  table
  {
@@ -39,14 +39,14 @@ padding: 40px;
  {
     padding:20px;
  }
-a 
+a
 {
 color: white;
-} 
- 
+}
+
 .options
  {
-    color: white; text-align: right; background-color:#FFD700; font-family: Arial; font-size:20px; margin:0px; 
+    color: white; text-align: right; background-color:#212162; font-family: Arial; font-size:20px; margin:0px;
  }
  a:link
  {
@@ -54,37 +54,23 @@ color: white;
  }
 h1
 {
-margin:0; padding:0; text-align:center; color: white; font-size:130px; font-family: Verdana;
-} 
- 
-@media screen and (max-width: 600px) 
-{
-.s
-{ 
-    display: block; 
-    background-color:orange;
-    height:1200px; 
-    font-family: Verdana;
-    color:white;
-    font-size:22px; 
+margin:0; padding:0; text-align:center; color: white; font-size:120px; font-family: Verdana;
 }
-}
+
  .s
  {
-    display: block; 
     background-color:orange;
     font-family: Verdana;
     color:white;
-    font-size:30px;
-    text-align:center; 
+    font-size:10px;
+    text-align:center;
  }
 
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 600px)
 {
  .o
  {
     background-color:orange;
-    height:1200px;
     padding:40px 50px 40px 50px;
     font-family: Verdana;
     color:white;
@@ -94,80 +80,63 @@ margin:0; padding:0; text-align:center; color: white; font-size:130px; font-fami
 }
 .z
 {
-    background-color: white; 
+    background-color: white;
 }
  .o
  {
- 	background-color:orange; 
+ 	background-color:orange;
  	padding:60px 80px 60px 80px;
  	font-family: Verdana;
  	color:white;
- 	font-size:24px;
+ 	font-size:18px;
  	text-align:center;
-    height:500px;
  }
 
 #forms
 {
         font-family: Arial;
-        color: white; 
-        text-align: center;  
+        color: white;
+        text-align: center;
 }
 
 #footer
 {
-background-color: orange; 
-color: white;  
+background-color: #212162;
+color: white;
 text-align: center;
 }
 
 img
 {
 	height: 300px;
-    width: 300px; 
+    width: 300px;
 }
-.displayed 
-{ 
+.displayed
+{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-     } 
+     }
 
 
-@media screen and (max-width: 600px) 
+.contact
 {
-iframe
-{  
-    margin-right: auto;
-    margin-left: auto; 
-     width:100px; 
-}
-}
-     iframe
-      { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    width:600px; 
-}
-.contact 
-{ 
     padding:200px;
     text-align: center;
-    background-color:orange; 
-    height:200px;
-font-size:30px; 
+    background-color:orange;
+    height:105px;
+font-size:20px;
 text-decoration: none;
 color:white;
 }
 
 .media
-{ 
+{
     padding:150px;
     text-align: center;
-    background-color: orange; 
+    background-color: orange;
     height:300px;
-font-size:30px; 
-color:white; 
-} 
+font-size:30px;
+color:white;
+}
 
