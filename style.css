@@ -1,142 +1,142 @@
 .c
 {
-    background-color:orange;
+  background-color:orange;
 }
 .x
 {
-    background-color:#212162;
+  background-color:#212162;
 }
 body
 {
-    background-size: cover;
+  margin: 0;
 }
 @media screen and (max-width: 600px)
 {
 table, tr, td
 {
-   padding: 50px;
+  padding: 50px;
 }
 table
 {
-    padding:20px;
+  padding:20px;
 }
 td
 {
-    padding:0px;
+  padding:0px;
 }
 }
 
 tr
  {
-    font-size:30px;
+  font-size:30px;
  }
  table
  {
-    margin:0 auto;
-padding: 40px;
+  margin:0 auto;
+  padding: 40px;
  }
  td
  {
-    padding:20px;
+  padding:20px;
  }
 a
 {
-color: white;
+  color: white;
 }
 
 .options
  {
-    color: white; text-align: right; background-color:#212162; font-family: Arial; font-size:18px; margin:0px;
+  color: white; text-align: right; background-color:#212162; font-family: Arial; font-size:18px; margin:0px;
  }
  a:link
  {
- 	text-decoration: none;
+  text-decoration: none;
  }
 h1
 {
-margin:0; padding:0; text-align:center; color: white; font-size:110px; font-family: Verdana;
+  margin:0; padding:0; text-align:center; color: white; font-size:110px; font-family: Verdana;
 }
 
  .s
  {
-    background-color:orange;
-    font-family: Verdana;
-    color:white;
-    font-size:10px;
-    text-align:center;
+  background-color:orange;
+  font-family: Verdana;
+  color:white;
+  font-size:10px;
+  text-align:center;
  }
 
 @media screen and (max-width: 600px)
 {
  .o
  {
-    background-color:orange;
-    padding:40px 50px 40px 50px;
-    font-family: Verdana;
-    color:white;
-    font-size:20px;
-    text-align:center;
+  background-color:orange;
+  padding:40px 50px 40px 50px;
+  font-family: Verdana;
+  color:white;
+  font-size:20px;
+  text-align:center;
  }
 }
 .z
 {
-    background-color: white;
+  background-color: white;
 }
  .o
  {
- 	background-color:orange;
- 	padding:60px 80px 60px 80px;
- 	font-family: Verdana;
- 	color:white;
- 	font-size:18px;
- 	text-align:center;
+  background-color:orange;
+  padding:60px 80px 60px 80px;
+  font-family: Verdana;
+  color:white;
+  font-size:18px;
+  text-align:center;
  }
 
 #forms
 {
-        font-family: Arial;
-        color: white;
-        text-align: center;
+  font-family: Arial;
+  color: white;
+  text-align: center;
 }
 
 #footer
 {
-background-color: #212162;
-color: white;
-text-align: center;
+  background-color: #212162;
+  color: white;
+  text-align: center;
 }
 
 img
 {
 	height: 300px;
-    width: 300px;
+  width: 300px;
 }
 .displayed
 {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-     }
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .contact
 {
-    padding:200px;
-    text-align: center;
-    background-color:orange;
-    height:105px;
-font-size:20px;
-text-decoration: none;
-color:white;
+  padding:200px;
+  text-align: center;
+  background-color:orange;
+  height:105px;
+  font-size:20px;
+  text-decoration: none;
+  color:white;
 }
 
 .media
 {
-    padding:150px;
-    text-align: center;
-    background-color: orange;
-    height:300px;
-font-size:30px;
-color:white;
+  padding:150px;
+  text-align: center;
+  background-color: orange;
+  height:300px;
+  font-size:30px;
+  color:white;
 }
 
