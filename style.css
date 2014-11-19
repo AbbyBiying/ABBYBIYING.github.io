@@ -60,11 +60,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
  .o {
-  background-color: orange;
-  padding: 40px 50px 40px 50px;
-  font-family: Verdana;
-  color: white;
-  font-size: 20px;
+  font-size: 25px;
   }
 }
 
@@ -73,12 +69,35 @@ h1 {
 }
 
 .o {
-  margin: 0;
-  background-color: orange;
-  padding: 50px 340px;
+  padding: 50px 0;
   font-family: Verdana;
-  color: white;
   font-size: 19px;
+}
+
+body {
+  background-color: orange;
+  color: #fff;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.skills {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  list-style-type: none;
+}
+
+.skills li {
+  text-align: center;
+  padding: 0;
+  font-family: Verdana;
 }
 
 #forms {
@@ -123,3 +142,6 @@ img {
   color: white;
 }
 
+h2 {
+  text-align: center;
+}
