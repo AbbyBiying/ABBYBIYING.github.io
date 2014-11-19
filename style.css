@@ -1,142 +1,127 @@
-.c
-{
-  background-color:orange;
-}
-.x
-{
-  background-color:#212162;
-}
-body
-{
-  margin: 0;
-}
-@media screen and (max-width: 600px)
-{
-table, tr, td
-{
-  padding: 50px;
-}
-table
-{
-  padding:20px;
-}
-td
-{
-  padding:0px;
-}
+.c {
+  background-color: orange;
 }
 
-tr
- {
-  font-size:30px;
- }
- table
- {
-  margin:0 auto;
-  padding: 40px;
- }
- td
- {
-  padding:20px;
- }
-a
-{
+.x {
+  background-color: #212162;
+}
+
+body {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  table, tr, td {
+    padding: 50px;
+  }
+  table {
+    padding: 20px;
+  }
+  td {
+    padding: 0px;
+  }
+}
+
+a {
   color: white;
 }
 
-.options
- {
-  color: white; text-align: right; background-color:#212162; font-family: Arial; font-size:18px; margin:0px;
- }
- a:link
- {
+.options {
+  padding: 10px 40px;
+  color: white;
+  text-align: right;
+  background-color: #212162;
+  font-family: Arial;
+  font-size: 18px;
+  margin: 0px;
+}
+
+a:link {
   text-decoration: none;
- }
-h1
-{
-  margin:0; padding:0; text-align:center; color: white; font-size:110px; font-family: Verdana;
 }
 
- .s
- {
-  background-color:orange;
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  font-size: 110px;
   font-family: Verdana;
-  color:white;
-  font-size:10px;
-  text-align:center;
- }
-
-@media screen and (max-width: 600px)
-{
- .o
- {
-  background-color:orange;
-  padding:40px 50px 40px 50px;
-  font-family: Verdana;
-  color:white;
-  font-size:20px;
-  text-align:center;
- }
 }
-.z
-{
+
+.s {
+  padding: 40px 450px;
+  background-color: orange;
+  font-family: Verdana;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+ .o {
+  background-color: orange;
+  padding: 40px 50px 40px 50px;
+  font-family: Verdana;
+  color: white;
+  font-size: 20px;
+  }
+}
+
+.z {
   background-color: white;
 }
- .o
- {
-  background-color:orange;
-  padding:60px 80px 60px 80px;
-  font-family: Verdana;
-  color:white;
-  font-size:18px;
-  text-align:center;
- }
 
-#forms
-{
+.o {
+  width: 600px;
+  margin: 0;
+  background-color: orange;
+  padding: 50px 340px;
+  font-family: Verdana;
+  color: white;
+  font-size: 19px;
+}
+
+#forms {
   font-family: Arial;
   color: white;
   text-align: center;
 }
 
-#footer
-{
+#footer {
+  padding: 30px 30px;
   background-color: #212162;
   color: white;
   text-align: center;
+  font-family: Arial;
 }
 
-img
-{
+img {
 	height: 300px;
   width: 300px;
 }
-.displayed
-{
+
+.displayed {
 	display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-.contact
-{
-  padding:200px;
-  text-align: center;
-  background-color:orange;
-  height:105px;
-  font-size:20px;
-  text-decoration: none;
-  color:white;
-}
-
-.media
-{
-  padding:150px;
+.contact {
+  padding: 200px;
   text-align: center;
   background-color: orange;
-  height:300px;
-  font-size:30px;
-  color:white;
+  height: 105px;
+  font-size: 20px;
+  color: white;
+}
+
+.media {
+  padding: 60px;
+  text-align: center;
+  background-color: orange;
+  height: 300px;
+  font-size: 30px;
+  color: white;
 }
 
