@@ -1,103 +1,88 @@
-.c {
-  background-color: orange;
-}
-
-.x {
-  background-color: #212162;
-}
-
 body {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
   margin: 0;
 }
 
-@media screen and (max-width: 600px) {
-  table, tr, td {
-    padding: 50px;
-  }
-  table {
-    padding: 20px;
-  }
-  td {
-    padding: 0px;
-  }
+a:active {
+  color: #C5E946;
 }
 
-a {
-  color: white;
-}
-
-.options {
-  padding: 10px 40px;
-  color: white;
-  text-align: right;
-  background-color: #212162;
-  font-family: Arial;
-  font-size: 18px;
-  margin: 0px;
+a:hover {
+  color: #FF00FF;
 }
 
 a:link {
+  color: #FF0000;
   text-decoration: none;
 }
 
-h1 {
+a:visited {
+  color: #FFFF33;
+}
+
+.app {
+  background-color: #6599FF;
+  list-style-type: none;
+  list-style-position: inside;
   margin: 0;
   padding: 0;
+}
+
+.app h1{
+  color:white;
+  padding: 30px;
   text-align: center;
-  color: white;
-  font-size: 110px;
-  font-family: Verdana;
+  margin: 0;
 }
 
-.s {
-  padding: 40px 450px;
-  background-color: orange;
-  font-family: Verdana;
-  color: white;
-  font-size: 20px;
+.app img{
+  height: 300px;
+}
+
+.contact {
+  padding: 150px;
   text-align: center;
-}
-
-@media screen and (max-width: 600px) {
- .o {
-  font-size: 25px;
-  }
-}
-
-.z {
-  background-color: white;
-}
-
-.o {
-  padding: 50px 0;
-  font-family: Verdana;
-  font-size: 19px;
-}
-
-body {
-  background-color: orange;
-  color: #fff;
+  background-color: #6599FF;
+  font-size: 40px;
+  color: white;
 }
 
 .container {
+  background-color: #6599FF;
+  padding: 50px 190px 180px 190px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 500px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-.skills {
+.clearfix:after {
+   background-color: #FF9900;
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.displayed {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 500px;
-  list-style-type: none;
 }
 
-.skills li {
+#footer {
+  padding: 30px 30px;
+  background-color: #FF9900;
+  color: white;
   text-align: center;
-  padding: 0;
-  font-family: Verdana;
 }
 
 #forms {
@@ -106,42 +91,120 @@ body {
   text-align: center;
 }
 
-#footer {
-  padding: 30px 30px;
-  background-color: #212162;
-  color: white;
+.x h1 {
+  margin: 0;
+  padding-bottom: 40px;
   text-align: center;
-  font-family: Arial;
+  color: white;
+  font-size: 140px;
 }
 
-img {
-	height: 300px;
+.x h2 {
+  color: white;
+  text-align: center;
+}
+
+.x img {
+  height: 300px;
   width: 300px;
 }
 
-.displayed {
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
+ul.clearfix li {
+  float: left;
+  font-size: 24px;
+  padding-left: 6px;
+  padding-right: 50px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
-.contact {
-  padding: 180px;
+ul.clearfix li:last-child {
+  padding-right: 0;
+}
+
+ul.clearfix li:first-child {
+  padding-left: 12px;
+}
+
+.container h2{
+  color: yellow;
+  font-size: 30px;
   text-align: center;
-  background-color: orange;
-  font-size: 25px;
+}
+
+.portfolio{
+  background-color: #6599FF;
   color: white;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  padding: 30px;
+  text-align: center;
 }
 
 .media {
-  padding: 60px;
+  padding: 80px;
   text-align: center;
-  background-color: orange;
+  background-color: #6599FF;
   height: 300px;
   font-size: 30px;
   color: white;
 }
 
-h2 {
+@media screen and (max-width: 600px) {
+ .o {
+  font-size: 25px;
+  }
+}
+
+.o {
+  color: white;
+  padding: 30px 0 40px 0;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 26px;
+}
+
+ul.skills li {
+  background-color: #6599FF;
+  color: white;
+  padding: 10px 16px 30px 0px;
+  font-size: 26px;
+  float: left;
+}
+
+ul.skills {
+  background-color: #6599FF;
+  padding: 15px 0;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.s {
+  padding: 40px 450px;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
   text-align: center;
 }
+
+table, td, th {
+  padding: 25px;
+  color: white;
+}
+
+ul.clearfix {
+  background-color: #FF9900;
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+}
+
+.x {
+  background-color: #6599FF;
+  padding: 50px 0 100px 0;
+}
+
+.z {
+  background-color: white;
+}
+
