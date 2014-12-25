@@ -1,20 +1,5 @@
-body {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  margin: 0;
-}
-
-a:active {
-  color: #C5E946;
-}
-
-a:hover {
-  color: #FF00FF;
-}
-
 a:link {
-  color: #FF0000;
+  color: white;
   text-decoration: none;
 }
 
@@ -30,40 +15,44 @@ a:visited {
   padding: 0;
 }
 
-.app h1{
-  color:white;
+.app h1 {
+  color: white;
+  margin: 0;
   padding: 30px;
   text-align: center;
+}
+
+.app h2:hover {
+  color: blue;
+}
+
+.app h3:hover {
+  color: #FF9900;
+}
+
+.app img {
+  height: 200px;
+}
+
+.app img:hover {
+  height: 400px;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
   margin: 0;
-}
-
-.app img{
-  height: 300px;
-}
-
-.contact {
-  padding: 150px;
-  text-align: center;
-  background-color: #6599FF;
-  font-size: 40px;
-  color: white;
-}
-
-.container {
-  background-color: #6599FF;
-  padding: 50px 190px 180px 190px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .clearfix:after {
    background-color: #FF9900;
-   visibility: hidden;
+   clear: both;
+   content: " ";
    display: block;
    font-size: 0;
-   content: " ";
-   clear: both;
    height: 0;
+   visibility: hidden;
 }
 
 .clearfix { display: inline-block; }
@@ -72,64 +61,57 @@ a:visited {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-.displayed {
+.contact {
+  background-color: #6599FF;
+  color: white;
+  font-size: 40px;
+  padding: 150px;
+  text-align: center;
+}
+
+.contact a:hover {
+  color: orange;
+}
+
+.container {
+  background-color: #6599FF;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 190px 180px 190px;
+}
+
+.container h2{
+  color: #FF9900;
+  font-size: 30px;
+  text-align: center;
+}
+
+.image {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 460px;
 }
 
 #footer {
-  padding: 30px 30px;
   background-color: #FF9900;
   color: white;
+  padding: 30px 30px;
   text-align: center;
 }
 
 #forms {
+  color: white;
   font-family: Arial;
-  color: white;
   text-align: center;
 }
 
-.x h1 {
-  margin: 0;
-  padding-bottom: 40px;
-  text-align: center;
+.media {
+  background-color: #6599FF;
   color: white;
-  font-size: 140px;
-}
-
-.x h2 {
-  color: white;
-  text-align: center;
-}
-
-.x img {
-  height: 300px;
-  width: 300px;
-}
-
-ul.clearfix li {
-  float: left;
-  font-size: 24px;
-  padding-left: 6px;
-  padding-right: 50px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-}
-
-ul.clearfix li:last-child {
-  padding-right: 0;
-}
-
-ul.clearfix li:first-child {
-  padding-left: 12px;
-}
-
-.container h2{
-  color: yellow;
   font-size: 30px;
+  height: 300px;
+  padding: 80px;
   text-align: center;
 }
 
@@ -142,54 +124,57 @@ ul.clearfix li:first-child {
   text-align: center;
 }
 
-.media {
-  padding: 80px;
-  text-align: center;
-  background-color: #6599FF;
-  height: 300px;
-  font-size: 30px;
-  color: white;
-}
-
-@media screen and (max-width: 600px) {
- .o {
-  font-size: 25px;
-  }
-}
-
 .o {
   color: white;
-  padding: 30px 0 40px 0;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 26px;
+  padding: 30px 0 40px 0;
+}
+
+.s {
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  padding: 40px 450px;
+  text-align: center;
+}
+
+ul.clearfix li {
+  float: left;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  padding-left: 6px;
+  padding-right: 50px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+ul.clearfix li:last-child {
+  padding-right: 0;
+}
+
+ul.clearfix li:first-child {
+  padding-left: 12px;
 }
 
 ul.skills li {
   background-color: #6599FF;
   color: white;
-  padding: 10px 16px 30px 0px;
-  font-size: 26px;
   float: left;
+  font-size: 26px;
+  padding: 10px 16px 30px 0px;
 }
 
 ul.skills {
   background-color: #6599FF;
-  padding: 15px 0;
   list-style-type: none;
   list-style-position: inside;
-}
-
-.s {
-  padding: 40px 450px;
-  background-color: orange;
-  color: white;
-  font-size: 20px;
-  text-align: center;
+  padding: 15px 0;
 }
 
 table, td, th {
-  padding: 25px;
   color: white;
+  padding: 64px;
 }
 
 ul.clearfix {
@@ -204,7 +189,24 @@ ul.clearfix {
   padding: 50px 0 100px 0;
 }
 
+.x h1 {
+  color: white;
+  font-size: 140px;
+  margin: 0;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.x h2 {
+  color: white;
+  text-align: center;
+}
+
+.x img {
+  height: 300px;
+  width: 300px;
+}
+
 .z {
   background-color: white;
 }
-
