@@ -121,6 +121,10 @@ body {
   text-align: center;
 }
 
+.media a:hover {
+  color: orange;
+}
+
 .painting {
   background-color: #6599FF;
   height: 300px;
