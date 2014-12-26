@@ -9,10 +9,9 @@ a:visited {
 
 .app {
   background-color: #6599FF;
-  list-style-type: none;
-  list-style-position: inside;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto -20px auto;
+  padding: 40px;
+  text-align: center;
 }
 
 .app h1 {
@@ -71,7 +70,7 @@ body {
   background-color: #6599FF;
   color: white;
   font-size: 40px;
-  padding: 150px;
+  padding: 100px;
   text-align: center;
 }
 
@@ -90,13 +89,6 @@ body {
   color: #FF9900;
   font-size: 30px;
   text-align: center;
-}
-
-.image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 460px;
 }
 
 #footer {
@@ -169,16 +161,11 @@ body {
   text-align: center;
 }
 
-table, td, th {
-  color: white;
-  padding: 69px;
-}
-
 .text {
   background-color: #6599FF;
   color: white;
   font-size: 30px;
-  margin: -15px;
+  margin: 0;
   padding: 20px;
   text-align: center;
 }
@@ -186,11 +173,8 @@ table, td, th {
 ul.clearfix li {
   float: left;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  padding-left: 6px;
-  padding-right: 50px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  font-size: 18px;
+  padding: 15px 4px;
 }
 
 ul.clearfix li:last-child {
@@ -242,8 +226,10 @@ ul.clearfix {
 }
 
 .x img {
+  display: block;
   height: 300px;
-  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .x img:hover {
@@ -255,6 +241,7 @@ ul.clearfix {
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
 }
+
 .z {
   background-color: white;
 }
