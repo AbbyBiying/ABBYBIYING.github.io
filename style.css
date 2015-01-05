@@ -24,6 +24,7 @@ a:visited {
 .app h1 {
   margin: 0;
   padding: 30px;
+  text-align: center;
 }
 
 .app h3 {
@@ -63,8 +64,10 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   height: 100%;
+  overflow-x: hidden;
   line-height: 1.5;
   margin: 0;
+  width: 100%;
 }
 
 .contact {
@@ -116,6 +119,10 @@ body {
 @media only screen and (max-device-width: 480px) {
   #footer {
     font-size: 10px;
+  }
+
+  .app img {
+    width: 700px;
   }
 }
 
