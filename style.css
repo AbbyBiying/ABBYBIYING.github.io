@@ -59,8 +59,8 @@ a:visited {
 }
 
 body {
-  background-color: #FFFBC9;
-  color: #517FFF;
+  background-color: #FFF8DC;
+  color: blue;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   height: 100%;
@@ -196,7 +196,7 @@ ul {
 }
 
 .hello {
-  font-size: 140px;
+  font-size: 170px;
   margin: 0;
   padding-bottom: 40px;
   text-align: center;
