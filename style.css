@@ -152,7 +152,7 @@ body {
 
 .painting {
   font-size: 60px;
-  padding:50px;
+  padding: 50px;
   text-align: center;
   padding-top: 100px;
 }
@@ -237,9 +237,14 @@ ul {
   background-color: white;
 }
 
-@media only screen and (max-device-width: 1500px) {
+@media only screen and (max-device-width: 500px) {
   .hello {
     font-size: 140px;
-    margin-top: 40px;
+    margin-top: 80px;
+  }
+
+  #footer {
+    font-size: 10px;
+    text-align: center;
   }
 }
