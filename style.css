@@ -59,8 +59,8 @@ a:visited {
 }
 
 body {
-  background-color: white;
-  color: #6599FF;
+  background-color: #EBEBEB;
+  color: #517FFF;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   height: 100%;
@@ -107,13 +107,11 @@ body {
   text-align: center;
 }
 
-.media {
-  background-color: #6599FF;
-  color: white;
+.video {
   font-size: 30px;
-  height: 300px;
-  padding: 60px 100px 170px 100px;
+  padding: 0;
   text-align: center;
+  margin-top: -100px;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -153,23 +151,10 @@ body {
 }
 
 .painting {
-  height: 300px;
-  padding: 40px 290px 30px 0;
-  margin: 0 auto;
+  font-size: 60px;
+  padding:50px;
   text-align: center;
-}
-
-.painting img {
-  width: 300px;
-  position: absolute;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-.painting img.top:hover {
-  opacity: 0;
+  padding-top: 100px;
 }
 
 .portfolio{
