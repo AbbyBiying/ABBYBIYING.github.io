@@ -236,3 +236,10 @@ ul {
 .z {
   background-color: white;
 }
+
+@media only screen and (max-device-width: 1500px) {
+  .hello {
+    font-size: 140px;
+    margin-top: 40px;
+  }
+}
