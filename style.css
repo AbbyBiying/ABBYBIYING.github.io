@@ -16,7 +16,7 @@ a:visited {
 }
 
 .app {
-  margin: 0 auto -20px auto;
+  margin: 40px auto -20px auto;
   padding: 20px;
   text-align: center;
 }
@@ -114,34 +114,31 @@ body {
   margin-top: -100px;
 }
 
-@media only screen and (max-device-width: 480px) {
-  #footer {
-    font-size: 10px;
-  }
-
-  .app img {
-    width: 700px;
-  }
-}
-
-.menu li {
-  float: right;
-  font-size: 15px;
-  margin-right: 30px;
-  padding-top: 20px;
-}
-
-.media a:hover {
-  color: orange;
-}
-
-.menu a {
-  font-size: 18px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+ul {
   list-style-type: none;
   list-style-position: inside;
+  margin-left: -30px;
+  width: 100%;
 }
+
+  .menu li {
+    float: right;
+    font-size: 15px;
+    margin-right: 30px;
+    padding-top: 20px;
+  }
+
+  .media a:hover {
+    color: orange;
+  }
+
+  .menu a {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    list-style-position: inside;
+  }
 
 .o {
   font-size: 24px;
@@ -154,7 +151,7 @@ body {
   font-size: 60px;
   padding: 50px;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .portfolio{
@@ -181,14 +178,6 @@ body {
   margin: 0;
   padding: 20px;
   text-align: center;
-}
-
-ul {
-  background-color: white;
-  list-style-type: none;
-  list-style-position: inside;
-  margin-left: -30px;
-  width: 100%;
 }
 
 .x {
@@ -237,7 +226,11 @@ ul {
   background-color: white;
 }
 
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-device-width : 375px) {
+  .container {
+    margin-top: 2em;
+  }
+
   .hello {
     font-size: 140px;
     margin-top: 80px;
@@ -246,5 +239,73 @@ ul {
   #footer {
     font-size: 10px;
     text-align: center;
+  }
+
+  .app img {
+    width: 700px;
+  }
+
+  .menu a {
+    font-size: 43px;
+    padding-right: 20px;
+  }
+
+  .app {
+    margin-top: 5em;
+  }
+
+  .painting {
+    padding-top: 2em;
+  }
+
+  .contact {
+    padding-top: 5em;
+  }
+
+  .o {
+    width: 116%;
+    margin-left: -2em;
+  }
+}
+
+@media only screen and (max-device-width : 320px) {
+  .container {
+    margin-top: 2em;
+  }
+
+  .hello {
+    font-size: 140px;
+    margin-top: 80px;
+  }
+
+  #footer {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .app img {
+    width: 700px;
+  }
+
+  .menu a {
+    font-size: 43px;
+    padding-right: 20px;
+  }
+
+  .app {
+    margin-top: 5em;
+  }
+
+  .painting {
+    padding-top: 2em;
+  }
+
+  .contact {
+    padding-top: 5em;
+  }
+
+  .o {
+    width: 116%;
+    margin-left: -2em;
   }
 }
